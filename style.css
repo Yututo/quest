@@ -1,0 +1,224 @@
+html{
+	height: 100%;
+}
+@font-face{
+	font-family: my-font;
+}
+body{
+	font-family: my-font;
+	color: white;
+	height: 100%;
+}
+/*главная*/
+.school{
+	position: absolute;
+	top: 3%;
+	left: 80%
+}
+.vaenkom{
+	top: 4%;
+	position: absolute;
+	left: 35%;
+}
+.hole {
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	height: 100px;
+	width: 400px;
+}
+.main_player{
+	position: absolute;
+	top: 85%;
+	left: 25%;
+	transition: 0.8s;
+}
+.enemy1 {
+	position: absolute;
+	height: 530px;
+	background: blue;
+	width: 960px;
+}
+.enemy1 {
+	position: absolute;
+	height: 500px;
+	background: lightblue;
+	width: 960px;
+}
+.enemy2 {
+	position: absolute;
+	height: 320px;
+	background: lightblue;
+	width: 960px;
+	left: 0px;
+	top: 659px;
+}
+.enemy3 {
+	position: absolute;
+	height: 250px;
+	background: lightblue;
+	width: 960px;
+	left: 960px;
+}
+.enemy4 {
+	position: absolute;
+	height: 460px;
+	background: lightblue;
+	width: 810px;
+	left: 1110px;
+	top: 379px;
+}
+.loc2_player {
+	position: absolute;
+	left: 0px;
+	top: 520px;
+	transition: 0.8s;
+}
+.loc2_escape {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	top: 280px;
+	left: 1840px;
+}
+.loc2_escape2 {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	top: 890px;
+	left: 1840px;
+}
+
+/*------------------------*/
+
+.loc3_teacher {
+	height: 100px;
+	width: 80px;
+	margin-left: 55%; 
+	position: absolute; 
+	margin-top: 10%;
+    background-image: url(Loc3/female_stand.png);
+    background-size: 100% 100%;
+}
+.loc3_talk {
+	position: absolute;
+	width: 300px;
+	margin-left: 56%;
+	display: none;
+	background-image: url(Loc3/talk.png);
+	background-size: 100% 100%;
+	color: black;
+	padding: 50px;
+}
+
+.loc3_pravilno{
+	background-color: gray; width: 100px; position: absolute;
+}
+
+.loc3_player {
+	left:30%; top:40%; position: absolute;
+}
+
+.loc3_variants {
+	background-color: gray; width: 100px; position: absolute;
+}
+.loc3_variants_block{
+	display: flex; position: absolute; top: 70%;left: 2%; display:none;
+}
+.loc3_timeSize {
+	font-size: 30px
+}
+.loc3_pole {
+	margin-top: 25%;
+	position: absolute;
+}
+
+/*----------------*/
+
+.povestka {
+	position: absolute;
+	height: 500px;
+	width: 900px;
+	left: 500px;
+	top: 250px;
+}
+.da {
+	position: absolute;
+	height: 40px;
+	width: 100px;
+	left: 700px;
+	top: 780px;
+	text-decoration: none;
+	border: none;
+	border-radius: 10px;
+	background: grey;
+	color: black;
+}
+.net {
+	position: absolute;
+	height: 40px;
+	width: 100px;
+	left: 1100px;
+	top: 780px;
+	text-decoration: none;
+	border: none;
+	border-radius: 10px;
+	background: grey;
+	color: black;
+}
+.loc5_timeSize {
+	font-size: 30px
+}
+.soldat {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	transition: 0.8s;
+	left: 1300px;
+	top: 520px;
+}
+.loc5_player {
+	position: absolute;
+	left: 0px;
+	top: 520px;
+	transition: 0.8s;
+}
+
+.enemy{
+	margin-top: 100px;
+	text-align:center;
+	height: 250px;
+}
+.player_img{
+	width:200px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 100% 100%;
+	position: relative;
+	transition: 1s;
+}
+.enemy_img{
+	width:200px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 100% 100%;
+	position: relative;
+	transition: 1s;
+}
+.player{
+	text-align: center;
+	height: 250px;
+	margin-top: 150px;
+}
+.player_property{
+	position: absolute;
+	top:80%;
+}
+.enemy_name{
+	color: white; font-family: Arial;
+}
+.player_name{
+	color: white; font-family: Arial
+}
