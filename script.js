@@ -229,6 +229,7 @@ vaenkom.onclick = function () {
 							player_img.style.opacity = 0;
 							player_name.innerHTML = " ";
 							location5.style.display = "none";
+							location4.style.display = "none";
 							main.style.display = "block";
 							body.style.backgroundImage = "url(main.png)";
 							body.style.backgroundSize = "100% 100%";
